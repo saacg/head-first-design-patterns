@@ -13,7 +13,7 @@ public class WeatherData implements Subject {
     
     public WeatherData() {
 
-        observers = new ArrayList<Observer>;
+        observers = new ArrayList<Observer>();
 
     }
 
@@ -70,7 +70,7 @@ public class WeatherData implements Subject {
     
     public float getPressure() {
 
-        return this.Pressure;
+        return this.pressure;
 
     }
 
